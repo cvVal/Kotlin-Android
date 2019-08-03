@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="main_longtoast">Hallo Ich bin ein Anko Toast!!!</string>
+    <string name="main_alert_mensaje">Hallo, gefallen Ihnen den Anko Alarm?</string>
+    <string name="main_alert_titulo">ALERT</string>
+    <string name="main_alert_btn_positivo">:D Super!</string>
+    <string name="main_alert_btn_negtivo">oh..</string>
+    <string name="main_alert_lista">¿Wo bist du?</string>
+    <string name="main_alert_progreso_mensaje">Bitte warten Sie einen Moment …</string>
+    <string name="main_alert_progreso_titulo">Daten werden geladen</string>
+    <string name="pon_tu_fecha_nacimiento">Setze deinen Geburtstag</string>
+    <string name="calcula_tu_edad">Berechnen Sie Ihr Alter</string>
+    <string name="lista_alert">Alert-Liste</string>
+    <string name="simple_alert">Einfache Warnung</string>
+    <string name="progress_dialog">Fortschrittsdialog</string>
+</resources>

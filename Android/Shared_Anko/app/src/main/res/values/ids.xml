@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextUsuario" type="id" />
+    <item name="editTextPassword" type="id"/>
+
+    <item name="switchAnko" type="id" />
+
+    <item name="btn_login" type="id" />
+
+    <item name="formLogin" type="id"/>
+
+    <item name="toolBar" type="id" />
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apps.alo.seve.myapplication.MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pon_tu_fecha_nacimiento"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10pt"
+        android:text="@string/calcula_tu_edad"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="141dp"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10pt"
+        android:text="@string/lista_alert"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="369dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="79dp" />
+
+    <Button
+        android:id="@+id/btnAnko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10pt"
+        android:text="@string/simple_alert"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="369dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnProgreso"
+        app:layout_constraintStart_toEndOf="@+id/btnProgreso"
+        app:layout_constraintEnd_toEndOf="@+id/btnProgreso" />
+
+    <Button
+        android:id="@+id/btnProgreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10pt"
+        android:text="@string/progress_dialog"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteY="279dp"
+        tools:layout_editor_absoluteX="109dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnLista" />
+
+
+</android.support.constraint.ConstraintLayout>

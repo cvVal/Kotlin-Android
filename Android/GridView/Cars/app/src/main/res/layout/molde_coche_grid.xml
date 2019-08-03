@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="140pt"
+    android:layout_height="140pt"
+    android:background="@color/gris"
+    android:padding="5pt">
+
+
+    <LinearLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imageView"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            app:srcCompat="@drawable/hw_toad_sm" />
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@+id/textViewTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14pt"
+                android:textStyle="bold"
+                android:text="Título del coche" />
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@+id/textViewDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción de nuestro coche" />
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:id="@+id/textViewPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precio" />
+    </LinearLayout>
+</LinearLayout>

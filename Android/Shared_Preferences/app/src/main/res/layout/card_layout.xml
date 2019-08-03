@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10pt"
+    android:outlineProvider="bounds"
+    app:cardCornerRadius="5pt"
+    app:cardElevation="7pt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12pt">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="25pt"
+            android:text="Beneficios de Kotlin"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5pt"
+            android:text="Los beneficios de Kotlin sobre Java:
+Es un lenguaje compatible con Java
+Compila al menos tan rápido como Java
+Es más seguro que Java
+Es más conciso que Java
+Reduce la base de código significativamente cuando se compara con el mismo código escrito en Java"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

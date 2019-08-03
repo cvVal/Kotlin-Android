@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="signin_username">Username</string>
+    <string name="signin_password">Password</string>
+    <string name="signin_button">Sign in</string>
+    <string name="signin_alert_invalid_title">Sign In Failed</string>
+    <string name="signin_alert_invalid_message">Invalid username or password</string>
+    <string name="dialog_btn_close">Close</string>
+    <string name="signin_alert_access_denied_title">Access denied</string>
+    <string name="signin_alert_access_denied_msg">You do not have permission to access this application!</string>
+</resources>

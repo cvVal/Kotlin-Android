@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="main_longtoast">Hi am an Anko toast!!!</string>
+    <string name="main_alert_mensaje">Hello, ¿do you like Anko alert?</string>
+    <string name="main_alert_titulo">ALERT</string>
+    <string name="main_alert_btn_positivo">:D Awesome!</string>
+    <string name="main_alert_btn_negtivo">oh..</string>
+    <string name="main_alert_lista">¿Where you from?</string>
+    <string name="main_alert_progreso_mensaje">Please, wait a moment…</string>
+    <string name="main_alert_progreso_titulo">Loading data</string>
+    <string name="pon_tu_fecha_nacimiento">Set your birthday</string>
+    <string name="calcula_tu_edad">Calculate your age</string>
+    <string name="lista_alert">Alert List</string>
+    <string name="simple_alert">Simple Alert</string>
+    <string name="progress_dialog">Progress dialog</string>
+</resources>
